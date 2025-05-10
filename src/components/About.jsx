@@ -21,7 +21,7 @@ export const About = () => (
     </div>
     <div className="w-full md:w-2/5 flex justify-center mt-8 md:mt-0">
       <img
-        src="/src/assets/img/sunny-pixel.jpg"
+        src="/assets/img/sunny-pixel.jpg"
         alt="Sunny Jiao"
         className="rounded-xl shadow-lg w-80 h-80 object-cover"
       />

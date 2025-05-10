@@ -12,4 +12,16 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        // eslint-disable-next-line no-undef
+        main: path.resolve(__dirname, "index.html"),
+      },
+    },
+    assetsDir: "assets",
+  },
+  publicDir: "public",
+  // Configure asset handling for proper path resolution
+  assetsInclude: ["**/*.jpg", "**/*.jpeg", "**/*.png", "**/*.svg"],
 });

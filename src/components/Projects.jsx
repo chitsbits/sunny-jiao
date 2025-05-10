@@ -1,27 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import projectsData from "../projects.json";
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    fetch("/src/projects.json")
-      .then((response) => response.json())
-      .then((data) => {
-        // Update image paths to point to the correct directory
-        const updatedProjects = data.map((project) => ({
-          ...project,
-          image: `/src/assets/img/${project.image}`,
-        }));
-        setProjects(updatedProjects);
-      })
-      .catch(() => {
-        // Handle error silently or with a user-friendly message
-      });
-  }, []);
-
-  const handleImageError = (event) => {
-    event.target.src = "/src/assets/img/placeholder.png";
-  };
+  const [projects] = useState(
+    projectsData.map((project) => ({
+      ...project,
+      image: project.image
+        ? `/assets/img/${project.image}`
+        : "/assets/img/placeholder.jpeg",
+    })),
+  );
 
   return (
     <div className="min-h-full h-full">
@@ -44,7 +32,6 @@ const Projects = () => {
               src={project.image}
               alt={project.name}
               className="w-full h-48 object-contain"
-              onError={handleImageError}
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
