@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Minecraft on Kubernetes Server Manager",
+    "description": "Management tool for hosting Minecraft servers on Kubernetes.",
+    "tags": ["Python", "Docker", "Kubernetes", "Flask", "Helm", "React"],
+    "image": "mc-docker.png",
+    "link": "https://github.com/chitsbits/mc-server-manager"
+  },
+  {
+    "name": "ChatGPT Memory Plugin",
+    "description": "ChatGPT plugin utilizing FastAPI. Uses the ChatGPT API to extract context from text, persisting it for retrieval from a vector database.",
+    "tags": ["Python", "FastAPI", "PostgreSQL", "OAuth2"],
+    "image": "memo.png"
+  },
+  {
+    "name": "ML Food Dispenser",
+    "description": "Deep learning project involving training a convolutional neural network object dectector.",
+    "tags": ["Python", "TensorFlow", "Flask", "Raspberry PI"],
+    "link": "https://github.com/chitsbits/ml-food-dispenser",
+    "image": "catcam.jpeg"
+  },
+  {
+    "name": "MangaDex Bot",
+    "description": "Discord bot for interacting with the MangaDex API, with an alert feature when your following list is updated.",
+    "tags": ["Node.js", "Axios", "JavaScript", "Heroku"],
+    "link": "https://github.com/chitsbits/mangadex-bot",
+    "image": "mdbot.png"
+  },
+  {
+    "name": "Dubercore",
+    "description": "ICS4UE - AP Computer Science summative project. 2D arcade game with procedural generation and destructible terrain. Inspired by Deep Rock Galactic.",
+    "tags": ["Java", "LibGDX", "SQLite"],
+    "link": "https://github.com/chitsbits/dubercore",
+    "image": "dubercore.png"
+  },
+  {
+    "name": "Sneak 100",
+    "description": "ICS3UE - Pre-AP Computer Science summative project. Top down stealth game. Inspired by Monaco: What's Yours Is Mine.",
+    "tags": ["Java", "Swing"],
+    "link": "https://github.com/chitsbits/Sneak100",
+    "image": "sneak100.png"
+  },
+  {
+    "name": "Dank Souls IV",
+    "description": "ICS2OG - Gr. 10 Computer Science summative project. 2D fighting game.",
+    "tags": ["Python", "Pygame"],
+    "link": "https://github.com/chitsbits/danksoulsiv"
+  }
+]

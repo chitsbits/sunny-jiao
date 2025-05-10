@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+
+  --color-border: var(--border);
+  --color-background: var(--background);
+  --color-background-contrast: var(--background-contrast);
+  --color-text: var(--text);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+
+  --color-link: var(--link);
+  --color-hover: var(--hover);
+  --color-focus: var(--focus);
+}
+
+@layer base {
+  :root {
+    --primary: #6cbf43;
+    --secondary: #478acc;
+    --accent: #ffaa33;
+
+    --border: #8a919945;
+    --background: #f8f9fa;
+    --background-contrast: #ffffff;
+    --text: #5c6166;
+
+    --success: #6cbf43;
+    --warning: #f2ae49;
+    --error: #e65050;
+
+    --link: #ffaa33;
+    --hover: #f9a52e;
+    --focus: #ffaa33b3;
+  }
+
+  .dark {
+    --primary: #ffcc66;
+    --secondary: #707a8c;
+    --accent: #ffd173;
+
+    --border: #707a8c45;
+    --background: #1f2430;
+    --background-contrast: #2a2e3b;
+    --text: #e9e7df;
+
+    --success: #87d96c;
+    --warning: #ffd173;
+    --error: #ff6666;
+
+    --link: #ffcc66;
+    --hover: #fac761;
+    --focus: #ffcc66b3;
+  }
+
+  body {
+    color: var(--color-text);
+    background-color: var(--color-background);
+    min-width: 320px;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Custom Scrollbar Styles */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-background-contrast);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 4px;
+    border: 2px solid var(--color-background-contrast);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-hover);
+  }
+
+  /* Firefox scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) var(--color-background-contrast);
+  }
+}
