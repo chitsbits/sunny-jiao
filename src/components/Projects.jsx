@@ -17,7 +17,7 @@ const Projects = () => {
         <h1 className="text-2xl font-bold mb-4">Projects</h1>
         <p className="mb-4 text-md text-center max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl">
           Here are a selection of my projects. These range from hobby projects
-          to school assingments, and include things written in Java, Python, and
+          to school assignments, and include things written in Java, Python, and
           Javascript.
         </p>
       </div>
