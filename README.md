@@ -1,1 +1,1 @@
-[Hosted on Vercel @ sunnyjiao.me](https://sunny-jiao.vercel.app)
+[Hosted on Vercel @ sunnyjiao.me](https://sunnyjiao.me)
