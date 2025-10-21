@@ -1,0 +1,101 @@
+[
+  {
+    "company": "Commure",
+    "position": "Software Engineer Intern",
+    "startDate": "Sep 2025",
+    "endDate": "Present",
+    "location": "Mountain View, CA",
+    "description": [
+      "Built and maintained full-stack features of a healthcare provider-facing Electronic Health Record (EHR) platform, streamlining clinical workflows while ensuring efficient, scalable, and HIPAA-compliant data access.",
+      "Owned the development of an event tracking service, integrating key back-end systems to give clinicians real-time visibility into patient journeys.",
+      "Optimized PostgreSQL performance and stability by leveraging query plan analysis, targeting indexes, resolving N+1 query issues, and refining transaction boundaries, reducing concurrency errors and cutting execution times by up to 80% on mission-critical flows."
+    ],
+    "tags": ["Python", "FastAPI", "PostgreSQL", "GCP", "SQLAlchemy", "React"],
+    "image_dark": "commure_black_p30.svg",
+    "image": "commure_dark.png",
+    "website": "https://www.commure.com",
+    "background_dark": "white",
+    "background": "#000000"
+  },
+  {
+    "company": "Ten Key Labs (dba Mantle)",
+    "position": "Software Engineering Associate",
+    "startDate": "Jan 2025",
+    "endDate": "Apr 2025",
+    "location": "Toronto, ON",
+    "description": [
+      "Utilized the Gemini API to extract financial data from complex, unstructured investor documents to create an investments reporting dashboard, featuring data-driven portfolio insights and graphical visualizations using Visx.",
+      "Leveraged AWS serverless to orchestrate an ETL pipeline for the ingestion, AI parsing, and storage of documents.",
+      "Utilized Playwright to develop robust, headless web scrapers that automate file retrieval from investor portals.",
+      "Developed a Go scheduler service for outbound emails via Sendgrid and web scraper executions, streamlining internal and client operations across different time zones and ensuring a sub-24h delivery SLA timeline to clients."
+    ],
+    "tags": ["Go", "PostgreSQL", "TypeScript", "React", "Redux", "AWS"],
+    "image": "mantle.jpg",
+    "website": "https://www.tenkeylabs.com",
+    "background": "#ffffff"
+  },
+  {
+    "company": "Nuvalence (Acquired by EY)",
+    "position": "Software Engineering Intern",
+    "startDate": "Jan 2024",
+    "endDate": "Apr 2024",
+    "location": "Troy, NY",
+    "description": [
+      "Iterated on a multi-tenant workflow orchestration and document processing platform for public sector agencies.",
+      "Built components utilizing advanced Rxjs patterns to ensure high front-end performance and code maintainability.",
+      "Deployed developer and staging cloud environments using GCP Cloud Build/Deploy, Skaffold, Helm, and GKE.",
+      "Discovered, flagged, and proactively resolved flaky asynchronous Jest tests, boosting test coverage by 20%."
+    ],
+    "tags": ["TypeScript", "Angular", "GCP"],
+    "image": "nuvalence.png",
+    "website": "https://www.nuvalence.io",
+    "background": "#1f1f1f"
+  },
+  {
+    "company": "TutorBright",
+    "position": "Full-Stack Developer Intern",
+    "startDate": "May 2023",
+    "endDate": "Aug 2023",
+    "location": "Toronto, ON",
+    "description": [
+      "Led development of a client management system from inception to production use by 40+ staff members.",
+      "Integrated 3rd party APIs such as Google Geocoding, Plivo, and Mailgun to an Express + MongoDB back-end.",
+      "Developed an email parsing automation that extracts client inquiry data and auto-generates user records in the database, eliminating manual entry and saving over 15 hours per week of onboarding time."
+    ],
+    "tags": ["Node.js", "TypeScript", "Express", "MongoDB", "Angular"],
+    "image": "tutorbright.jpeg",
+    "website": "https://www.tutorbright.com",
+    "background": "#ffffff"
+  },
+  {
+    "company": "TutorBright",
+    "position": "Full-Stack Developer Intern",
+    "startDate": "Sep 2022",
+    "endDate": "Dec 2022",
+    "location": "Toronto, ON",
+    "description": [
+      "Engineered new major features to a whiteboard/video RTC conferencing webapp in use by 10k+ students and tutors.",
+      "Overhauled the image upload pipeline to allow for parsing and storing of 3rd-party web URLs, reducing AWS S3 bucket storage costs by 50%. Wrote RESTful endpoints and architected MongoDB schemas for core features.",
+      "Improved low-bandwidth connection robustness by implementing dynamic audio/video throttling in Mediasoup."
+    ],
+    "tags": ["Node.js", "TypeScript", "Express", "MongoDB", "Angular"],
+    "image": "tutorbright.jpeg",
+    "website": "https://www.tutorbright.com",
+    "background": "#ffffff"
+  },
+  {
+    "company": "Ford Motor Company of Canada",
+    "position": "Software Automation Developer",
+    "startDate": "Jan 2022",
+    "endDate": "Apr 2022",
+    "location": "Oakville, ON",
+    "description": [
+      "Wrote and deployed Python automation tests using Jenkins for WLAN functions in automotive subsystems.",
+      "Conducted manual testing using bash scripts on embedded Linux systems (QNX) with MQTT and CAN protocols."
+    ],
+    "tags": ["Python", "Bash", "Jenkins"],
+    "image": "ford.png",
+    "website": "https://www.ford.ca",
+    "background": "#ffffff"
+  }
+]

@@ -44,6 +44,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             <ThemeToggle />
             <NavButton text={"Home"} url={"/"} />
             <NavButton text={"About"} url={"/about"} />
+            <NavButton text={"Experience"} url={"/experience"} />
             <NavButton text={"Projects"} url={"/projects"} />
           </div>
           <div className="md:hidden flex items-center space-x-2">

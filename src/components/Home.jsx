@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export const Home = () => (
   <div className="flex flex-col items-center justify-center h-dvh">
@@ -24,13 +24,20 @@ export const Home = () => (
         >
           <Linkedin></Linkedin>
         </a>
+        <a
+          className="hover:text-primary transition-colors"
+          href="mailto:sunnyjiao999@gmail.com"
+          target="_blank"
+        >
+          <Mail></Mail>
+        </a>
       </div>
     </div>
     <a
-      href="/projects"
+      href="/about"
       className="text-background mt-6 px-4 py-2 bg-accent rounded hover:bg-secondary transition-colors"
     >
-      View Projects
+      About Me
     </a>
   </div>
 );

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ThemeContext } from "./ThemeContext";
 
 // Theme provider component to wrap the app
 export const ThemeProvider = ({ children }) => {

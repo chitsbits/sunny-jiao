@@ -7,7 +7,7 @@
     "link": "https://github.com/chitsbits/mc-server-manager"
   },
   {
-    "name": "ChatGPT Memory Plugin",
+    "name": "Memo: ChatGPT Context Plugin",
     "description": "ChatGPT plugin utilizing FastAPI. Uses the ChatGPT API to extract context from text, persisting it for retrieval from a vector database.",
     "tags": ["Python", "FastAPI", "PostgreSQL", "OAuth2"],
     "image": "memo.png"
