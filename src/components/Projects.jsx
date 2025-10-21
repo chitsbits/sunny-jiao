@@ -13,14 +13,7 @@ const Projects = () => {
 
   return (
     <div className="min-h-full h-full">
-      <div className="pt-32 flex flex-col items-center justify-center pt-6 pb-2 bg-background">
-        <h1 className="text-2xl font-bold mb-4">Projects</h1>
-        <p className="mb-4 text-md text-center max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl">
-          Here are a selection of my projects. These range from hobby projects
-          to school assignments, and include things written in Java, Python, and
-          Javascript.
-        </p>
-      </div>
+      <div className="pt-20 flex flex-col items-center justify-center pt-6 pb-2 bg-background"></div>
       <div className="flex flex-wrap justify-center gap-6 p-6 max-w-[calc(80rem+3rem)] mx-auto">
         {/* 3 cards at w-80 (20rem) each + 2 gaps at 1.5rem each */}
         {projects.map((project, index) => (

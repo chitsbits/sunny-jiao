@@ -9,6 +9,7 @@ import { ThemeProvider } from "./components/ThemeProvider";
 import { About } from "./components/About";
 import { AnimatePresence } from "framer-motion";
 import { PageTransition } from "./components/PageTransition";
+import Experience from "./components/Experience";
 
 // AnimatedRoutes component to handle page transitions
 const AnimatedRoutes = () => {
@@ -20,7 +21,7 @@ const AnimatedRoutes = () => {
         <Routes location={location}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
