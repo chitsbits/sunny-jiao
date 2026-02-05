@@ -6,7 +6,7 @@ export const Home = () => (
       Sunny Jiao
     </h1>
     <p className="mt-4 text-lg sm:text-xl text-center max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl">
-      4A Computer Engineering at University of Waterloo
+      4B Computer Engineering at University of Waterloo
     </p>
     <div className="flex items-center">
       <div className="flex items-center space-x-4 mt-4">
