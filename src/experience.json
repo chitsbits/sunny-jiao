@@ -3,12 +3,12 @@
     "company": "Commure",
     "position": "Software Engineer Intern",
     "startDate": "Sep 2025",
-    "endDate": "Present",
+    "endDate": "Dec 2025",
     "location": "Mountain View, CA",
     "description": [
       "Built and maintained full-stack features of a healthcare provider-facing Electronic Health Record (EHR) platform, streamlining clinical workflows while ensuring efficient, scalable, and HIPAA-compliant data access.",
       "Owned the development of an event tracking service, integrating key back-end systems to give clinicians real-time visibility into patient journeys.",
-      "Optimized PostgreSQL performance and stability by leveraging query plan analysis, targeting indexes, resolving N+1 query issues, and refining transaction boundaries, reducing concurrency errors and cutting execution times by up to 80% on mission-critical flows."
+      "Optimized PostgreSQL performance and stability by leveraging query plan analysis, restructuring joins, resolving N+1 query issues, refining transaction boundaries, and employing explicit locking strategies, reducing concurrency errors and improving API latency by up to 80% on mission-critical flows."
     ],
     "tags": ["Python", "FastAPI", "PostgreSQL", "GCP", "SQLAlchemy", "React"],
     "image_dark": "commure_black_p30.svg",

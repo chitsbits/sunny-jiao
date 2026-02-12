@@ -46,6 +46,12 @@ export const MobileNav = ({ menuOpen, setMenuOpen }) => (
         <ListItem
           menuOpen={menuOpen}
           setMenuOpen={setMenuOpen}
+          text="Experience"
+          link="/experience"
+        />
+        <ListItem
+          menuOpen={menuOpen}
+          setMenuOpen={setMenuOpen}
           text="Projects"
           link="/projects"
         />
