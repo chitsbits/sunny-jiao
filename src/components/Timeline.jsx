@@ -38,14 +38,27 @@ const Timeline = ({ isDarkMode }) => {
                       : exp.background,
                   }}
                 >
-                  <img
-                    src={isDarkMode ? exp.image_dark || exp.image : exp.image}
-                    alt={exp.company}
-                    className="p-2 w-full h-full object-contain"
-                  />
+                  <a
+                    href={exp.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={isDarkMode ? exp.image_dark || exp.image : exp.image}
+                      alt={exp.company}
+                      className="p-2 w-full h-full object-contain"
+                    />
+                  </a>
                 </div>
                 <div className="flex flex-col">
-                  <div className="text-xl">{exp.company}</div>
+                  <a
+                    href={exp.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl hover:underline"
+                  >
+                    {exp.company}
+                  </a>
                   <div className="text-lg">{exp.position}</div>
                 </div>
               </div>
